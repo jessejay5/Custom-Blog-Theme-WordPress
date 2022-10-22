@@ -1,0 +1,87 @@
+.page-id-6 {margin: 0 !important;}
+
+._biography-container ._biography-title {
+   font-size: 90px;
+   font-family: 'Lato';
+   color: #f1a962;
+   margin-top: 40px;
+}
+
+._biography-row {
+	width: 100%;
+	margin-top: 40px;
+}
+
+._biography-column ._biography-header:first-child>h2 {
+	color: #000;
+	width: 400px;
+	margin-bottom: 30px;
+	font-weight: bold;
+	line-height: 37px;
+	width: 100%
+}
+
+._biography-column ._biography-content p {
+	color: #000;
+	width: 400px;
+	font-size: 11px;
+	line-height: 25px;
+	font-weight: bold;
+}
+
+._biography-column ._biography-content p:nth-child(2) {margin-top: 20px;}
+._biography-column ._biography-content p:last-child {margin-top: 20px;}
+
+._biography-column {
+	float: left;
+	width: 50%;
+}
+
+._biography-pic {
+	position: relative;
+	top: 27px;
+    left: 162px;
+}
+
+._biography-pic>img {
+	width: 230px;
+	height: 220px;
+}
+
+._biography-column:last-child {
+	position: relative;
+	top: 60px;
+    left: 162px;
+	width: 230px;
+    height: auto;
+	height: 47em;
+	color: #333;
+	font-weight: bold;
+	padding: 10px 10px;
+	background-color: #dbdbdb;
+}
+
+._biography-column:last-child ._biography-form-group>p {width: 180px;}
+
+._biography-form-group>p {
+	color: #000;
+	font-size: 20px;
+	font-family: 'Lato';
+	line-height: 30px;
+	margin-bottom: 40px;
+	text-transform: uppercase;
+}
+
+/* lato-900 - latin */
+@font-face {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 900;
+  src: url('http://localhost/wordpress/wp-content/themes/mbj/fonts/lato-v17-latin-900.eot'); /* IE9 Compat Modes */
+  src: local(''),
+       url('http://localhost/wordpress/wp-content/themes/mbj/fonts/lato-v17-latin-900.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('http://localhost/wordpress/wp-content/themes/mbj/fonts/lato-v17-latin-900.woff2') format('woff2'), /* Super Modern Browsers */
+       url('http://localhost/wordpress/wp-content/themes/mbj/fonts/lato-v17-latin-900.woff') format('woff'), /* Modern Browsers */
+       url('http://localhost/wordpress/wp-content/themes/mbj/fonts/lato-v17-latin-900.ttf') format('truetype'), /* Safari, Android, iOS */
+       url('http://localhost/wordpress/wp-content/themes/mbj/fonts/lato-v17-latin-900.svg#Lato') format('svg'); /* Legacy iOS */
+}

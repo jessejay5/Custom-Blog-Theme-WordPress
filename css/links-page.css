@@ -1,0 +1,91 @@
+.page-id-12{
+  margin: 0 !important;
+}
+
+._links-wrap ._links-name {
+   font-size: 90px;
+   font-family: 'Lato';
+   color: #f1a962;
+   margin-top: 40px;
+}
+
+._links-row {
+	width: 100%;
+	margin-top: 40px;
+}
+
+._links-row ._links-header h2 {
+	color: #000;
+	width: 400px;
+	margin-bottom: 30px;
+	font-weight: bold;
+	font-family: 'Lato';
+	line-height: 37px;
+	width: 100%
+}
+
+._links-row ._links-header {margin-top: 30px;}
+._links-row ._links-column ._links-content {
+	margin-top: -20px;
+}
+
+._links-row ._links-column ._links-content span {
+	color: #000;
+	width: 400px;
+	font-size: 11px;
+	line-height: 20px;
+	font-weight: bold;
+}
+
+._links-row ._links-column ._links-content span a {color: #f1a962;}
+._links-row ._links-column ._links-content p {
+	color: #000;
+	width: 400px;
+	font-size: 11px;
+	line-height: 20px;
+	font-weight: bold;
+}
+
+._links-row ._links-column ._links-details p {margin-top: 19px;}
+._links-row ._links-column ._links-content p a {color: #f1a962;}
+
+._links-row ._links-column {
+	float: left;
+	width: 50%;
+}
+
+._links-row ._links-column:last-child {
+	margin-top: 40px;
+	margin-left: 162px;
+	width: 230px;
+	height: 47em;
+	color: #333;
+	font-weight: bold;
+	padding: 10px 10px;
+	background-color: #dbdbdb;
+}
+
+._links-row ._links-column:last-child ._links-form-group>p {width: 180px;}
+
+._links-form-group>p {
+	color: #000;
+	font-size: 20px;
+	font-family: 'Lato';
+	line-height: 30px;
+	margin-bottom: 40px;
+	text-transform: uppercase;
+}
+
+/* lato-900 - latin */
+@font-face {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 900;
+  src: url('http://localhost/wordpress/wp-content/themes/mbj/fonts/lato-v17-latin-900.eot'); /* IE9 Compat Modes */
+  src: local(''),
+       url('http://localhost/wordpress/wp-content/themes/mbj/fonts/lato-v17-latin-900.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('http://localhost/wordpress/wp-content/themes/mbj/fonts/lato-v17-latin-900.woff2') format('woff2'), /* Super Modern Browsers */
+       url('http://localhost/wordpress/wp-content/themes/mbj/fonts/lato-v17-latin-900.woff') format('woff'), /* Modern Browsers */
+       url('http://localhost/wordpress/wp-content/themes/mbj/fonts/lato-v17-latin-900.ttf') format('truetype'), /* Safari, Android, iOS */
+       url('http://localhost/wordpress/wp-content/themes/mbj/fonts/lato-v17-latin-900.svg#Lato') format('svg'); /* Legacy iOS */
+}
